@@ -1,0 +1,138 @@
+body {
+  background: #efefef;
+}
+header {
+    margin-top :20px;
+}
+
+.container {
+    width: 1100px;
+    margin
+    : 0 auto 40px auto;
+    background: #ffffff;
+}
+
+.title-area {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 36px;
+    text-align:center
+}
+
+.navi {
+    width: 100%;
+    background: #333333;
+    padding: 20px 0;
+}
+
+.navi li {
+    float: left;
+    padding: 0 30px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.navi li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navi:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+
+.card-contents {
+  padding: 30px;
+  display: block;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.left-contents {
+  width: 680px;
+  margin-right: 20px;
+  float: left;
+}
+
+.right-contents {
+  width: 400px;
+  float: left;
+}
+
+.article {
+    display: flex;
+    
+}
+
+.photo-image {
+  margin-bottom: 10px;
+  width: 250px;
+  height: 250px;
+  padding-right: 20px;
+  display: block;
+}
+
+.date,.coment p{
+  margin-top: 0;
+}
+
+.coment h2 {
+  margin-top: 0;
+  color: #33CCFF;
+}
+p.date {
+  font-size: 16px;
+}
+
+
+.sub-photo-image {
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  padding-right: 20px;
+  display: block;
+}
+
+.coment h3 ,{
+  font-size: 16px;
+}
+
+h2.text-title {
+  margin: 0 auto 20px auto
+}
+
+.card-contents hr {
+  margin-bottom: 30px;
+  color: #333333;
+}
+
+.copyright {
+  color: #777;
+  text-align: center;
+}
+
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+hr.footer-line {
+  width: 90%;
+  color:  #333333;
+  margin-top: 60px;
+}
+
+footer {
+  padding-bottom: 20px;
+}
+footer p {
+  margin-top: 50px;
+  
+}
